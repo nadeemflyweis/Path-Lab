@@ -21,6 +21,14 @@ const userSchema = new mongoose.Schema(
     contact: {
       type: String,
     },
+
+    city: {
+      type: String,
+    },
+
+    stateName: {
+      type: String,
+    },
   },
   { timestamps: true }
 );
