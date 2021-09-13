@@ -12,5 +12,7 @@ router.use("/user", require("./userRoute"));
 
 router.use("/vendor", require("./vendorRoute"));
 
+router.use("/disease", require("./diseaseRoute"));
+
 // ------------------- Exporting --------------------
 module.exports = router;
